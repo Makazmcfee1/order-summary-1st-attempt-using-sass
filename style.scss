@@ -1,0 +1,91 @@
+
+$Paleblue: hsl(225, 100%, 94%);
+$brightblue: hsl(245, 75%, 52%);
+$verypaleblue: hsl(225, 100%, 98%);
+$desaturatedblue: hsl(224, 23%, 55%);
+$darkblue: hsl(223, 47%, 23%);
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+     font-size:16px;
+     text-align: center;
+     margin: 0px;
+     padding: 0px;
+     
+.card{
+     max-width:450px;
+     margin:20px auto;
+     border-radius: 20px;
+     box-shadow: 0px 0px 5px 5px rgb(190,190,190);
+     .hero-image>img{
+          border-radius: 20px 20px 0px 0px;
+     }
+     
+
+     .order{
+          width:80%;
+          margin: auto;
+     }
+     
+     
+     .plan{
+display: grid;
+grid-auto-flow:column;
+height:99px;
+margin:auto;
+width:80%;
+background-color:$verypaleblue;
+border-radius: 10px;
+img{
+     margin:auto;
+}
+.plan-text{
+     text-align: left;
+     h2{
+          margin-bottom:5px;
+     }
+     p{
+          margin-top:0px;
+     }
+}
+a{
+     margin:auto;
+}
+     }
+     .btn{
+          width:80%;
+          height:40px;
+          border-radius: 10px;
+          background-color:$brightblue;
+          a{
+               color:$Paleblue;
+               text-decoration: none;
+          }
+
+     }
+     .cancel{
+          margin-top: 18px;;
+     }
+     .cancel > a{
+          text-decoration: none;
+          color:$desaturatedblue;
+     }
+.attribution {
+     font-size: 11px; text-align: center;
+    
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+
+}
+footer{
+     margin-top:20px;
+}
+
+}
+
+    
+  
