@@ -9,7 +9,7 @@ body .card {
   max-width: 450px;
   margin: 20px auto;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px 5px rgb(190, 190, 190);
+  box-shadow: 0px 0px 10px 10px hsl(225deg, 100%, 94%);
 }
 body .card .hero-image > img {
   border-radius: 20px 20px 0px 0px;
@@ -17,6 +17,7 @@ body .card .hero-image > img {
 body .card .order {
   width: 80%;
   margin: auto;
+  font-family: "Cabin", sans-serif;
 }
 body .card .plan {
   display: grid;
@@ -26,6 +27,8 @@ body .card .plan {
   width: 80%;
   background-color: hsl(225deg, 100%, 98%);
   border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: "Cabin", sans-serif;
 }
 body .card .plan img {
   margin: auto;
@@ -44,13 +47,14 @@ body .card .plan a {
 }
 body .card .btn {
   width: 80%;
-  height: 40px;
+  height: 45px;
   border-radius: 10px;
   background-color: hsl(245deg, 75%, 52%);
 }
 body .card .btn a {
   color: hsl(225deg, 100%, 94%);
   text-decoration: none;
+  font-family: "Cabin", sans-serif;
 }
 body .card .cancel {
   margin-top: 18px;
@@ -58,6 +62,7 @@ body .card .cancel {
 body .card .cancel > a {
   text-decoration: none;
   color: hsl(224deg, 23%, 55%);
+  font-family: "Cabin", sans-serif;
 }
 body .card .attribution {
   font-size: 11px;
