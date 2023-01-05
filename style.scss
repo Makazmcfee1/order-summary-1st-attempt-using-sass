@@ -18,7 +18,7 @@ body {
   background-color: $Paleblue;
 
   .card {
-    max-width: 450px;
+    max-width: 430px;
     margin: 175px auto;
 
     border-radius: 20px;
@@ -31,6 +31,10 @@ body {
     .order {
       width: 80%;
       margin: auto;
+      h1 {
+        font-weight: 900;
+        font-size: 1.2rem;
+      }
       p {
         color: $desaturatedblue;
       }
@@ -44,17 +48,21 @@ body {
       width: 80%;
       background-color: $verypaleblue;
       border-radius: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
 
       img {
         margin: auto;
       }
       .plan-text {
         text-align: left;
-        h3 {
-          margin-bottom: 5px;
+        #annual {
+          color: $darkblue;
+          font-size: 0.9rem;
+          font-weight: 900;
+          margin-bottom: 0px;
+          margin-top: 30px;
         }
-        p {
+        #cost {
           margin-top: 0px;
           color: $desaturatedblue;
         }
@@ -72,12 +80,11 @@ body {
       border-radius: 10px;
       background-color: $brightblue;
       box-shadow: 0px 4px 13px $brightblue;
-      a {
-        color: $Paleblue;
-        text-decoration: none;
-        font-weight: 900;
-        font-size: 1.1rem;
-      }
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 1.1rem;
+      margin-top: 20px;
+      color: $verypaleblue;
     }
     .btn:hover {
       filter: opacity(0.9);
@@ -97,7 +104,7 @@ body {
     }
   }
   .attribution {
-    font-size: 11px;
+    font-size: 15px;
     text-align: center;
   }
 
