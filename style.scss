@@ -23,6 +23,11 @@ body {
 
     border-radius: 20px;
     box-shadow: 0px 0px 1px 1px $Paleblue;
+    min-height:100vh; 
+    display: grid;
+    place-items:center;
+
+
     .hero-image > img {
       border-radius: 20px 20px 0px 0px;
       
