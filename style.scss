@@ -18,14 +18,14 @@ body {
   background-color: $Paleblue;
 
   .card {
-    max-width: 430px;
+    max-width: 450px;
     margin: 175px auto;
 
     border-radius: 20px;
     box-shadow: 0px 0px 1px 1px $Paleblue;
     .hero-image > img {
       border-radius: 20px 20px 0px 0px;
-      max-width:430px;
+      
     }
     font-family: "Cabin", sans-serif;
     background-color: white;
