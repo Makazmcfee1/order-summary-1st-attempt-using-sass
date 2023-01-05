@@ -12,7 +12,7 @@ body {
 }
 body .card {
   max-width: 450px;
-  margin: 20px auto;
+  margin: 175px auto;
   border-radius: 20px;
   box-shadow: 0px 0px 1px 1px hsl(225deg, 100%, 94%);
   font-family: "Cabin", sans-serif;
