@@ -54,6 +54,9 @@ body .card .plan .plan-text p {
 body .card .plan a {
   margin: auto;
 }
+body .card .plan a:hover {
+  text-decoration: none;
+}
 body .card .btn {
   width: 80%;
   height: 48px;
@@ -67,22 +70,38 @@ body .card .btn a {
   font-weight: 900;
   font-size: 1.1rem;
 }
+body .card .btn:hover {
+  filter: opacity(0.9);
+}
 body .card .cancel {
   padding: 25px;
 }
-body .card .cancel > a, body .card :active {
+body .card .cancel a,
+body .card .cancel :active {
   text-decoration: none;
   color: hsl(224deg, 23%, 55%);
   font-weight: 700;
-  padding: 20px;
 }
-body .card .attribution {
+body .card .cancel a:hover {
+  color: black;
+}
+body .attribution {
   font-size: 11px;
   text-align: center;
 }
-body .card .attribution a {
+body .attribution a {
   color: hsl(228deg, 45%, 44%);
 }
-body footer {
+
+footer {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body .card {
+    width: 375px;
+  }
+  body .card .hero-image img {
+    width: 375px;
+  }
 }/*# sourceMappingURL=style.css.map */
