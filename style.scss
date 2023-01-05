@@ -112,4 +112,14 @@ footer{
 }
 
     
-  
+ @media screen and(max-width:600px){
+body{
+     .card{
+          width:375px;
+          .hero-image{
+               img{
+                    width:375px;
+               }
+          }
+}
+ } 
