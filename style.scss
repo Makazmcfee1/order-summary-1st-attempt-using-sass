@@ -20,7 +20,7 @@ body {
   .card {
     max-width: 450px;
     margin: 175px auto;
-    
+
     border-radius: 20px;
     box-shadow: 0px 0px 1px 1px $Paleblue;
     .hero-image > img {
@@ -62,8 +62,8 @@ body {
       a {
         margin: auto;
       }
-      a:hover{
-          text-decoration: none;
+      a:hover {
+        text-decoration: none;
       }
     }
     .btn {
@@ -79,8 +79,8 @@ body {
         font-size: 1.1rem;
       }
     }
-    .btn:hover{
-     filter: opacity(0.9);
+    .btn:hover {
+      filter: opacity(0.9);
     }
     .cancel {
       padding: 25px;
