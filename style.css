@@ -11,7 +11,7 @@ body {
   background-color: hsl(225deg, 100%, 94%);
 }
 body .card {
-  max-width: 430px;
+  max-width: 450px;
   margin: 175px auto;
   border-radius: 20px;
   box-shadow: 0px 0px 1px 1px hsl(225deg, 100%, 94%);
